@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3e332e;
+    background-color: #e6e1d9;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #5c4033; 
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+/* Header & Navbar */
+header {
+    background-color:  #e6e1d9 !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #5c4033 !important;
+    letter-spacing: 0.5px;
+}
+.nav-link {
+    color: #6d5d55 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #b87333 !important;
+}
+
+.dropdown-menu {
+    border: 1px solid #f0e6df;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.dropdown-item:hover{
+    color: #6d5d55;
+
+}
+
+.dropdown-menu .dropdown-item:active, 
+.dropdown-menu .dropdown-item:focus {
+    background-color: #ffffff;
+
+}
+
+/* Hero dan slider (Home) */
+.hero-section {
+    background: linear-gradient(135deg, #e6d5c3 0%, #cbb199 100%);
+    padding: 3rem 1rem;
+}
+
+.carousel {
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    background-color: #ffffff !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #5c4033;
+    border-radius: 50%;
+    opacity: 0.8;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #b87333;
+    opacity: 1;
+}
+
+.img-thumbnail{
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+
+/* Tabel & Card (Best & Menu) */
+.table {
+    border-color: #eedcd0;
+    transition: 0.2s;
+}
+
+.table th {
+    background-color: #5c4033;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.col .p-3.border {
+    background-color: #ffffff !important;
+    border: 1px solid #f0e6df !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.col .p-3.border:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(92, 64, 51, 0.1);
+}
+
+.rounded-circle.bg-secondary {
+    background-color: #eedcd0 !important;
+    color: #5c4033 !important;
+    font-weight: 600;
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+    transition: 0.2s;
+}
+
+.btn-secondary {
+    background-color: #5c4033;
+    border-color: #5c4033;
+    border-radius: 20px;
+    padding: 0.25rem 1rem;
+}
+
+.btn-secondary:hover {
+    background-color: #b87333;
+    border-color: #b87333;
+}
+
+/* About Us*/
+.flex-column .border, .mt-3 .border {
+    background-color: #ffffff !important;
+    border: 1px solid #eedcd0 !important;
+    color: #5c4033;
+    font-weight: 500;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    padding: 0.5rem 1.2rem !important;
+    transition: all 0.3s ease;
+}
+
+.flex-column .border:hover, .mt-3 .border:hover {
+    background-color: #5c4033 !important;
+    color: #ffffff;
+    border-color: #5c4033 !important;
+}
+
+.rounded-circle.border {
+    border: 3px solid #eedcd0 !important;
+    background-color: #ffffff;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+
+}
+
+
+/* Footer */
+footer {
+    background-color: #2b211d !important; 
+    color: #f5efe9;
+}
+
+footer h2 {
+    color: #5c4033;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #5c4033;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+footer p, footer small {
+    color: #5c4033;
+}
+
+footer .border-top {
+    border-color: #3e332e !important;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bread & Coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <!-- Navbar-->
+    <header class="sticky-top bg-light border-bottom">
+        <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Bread & Coffee</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!--Menu Navigasi-->
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="best.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Best
+                    </a>
+                    <!--Dropdown Menu-->
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="bestbulan.html">Best Perbulan</a></li>
+                        <li><a class="dropdown-item" href="besttahun.html">Best Pertahun</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="coffee.html">Coffee</a></li>
+                        <li><a class="dropdown-item" href="bread.html">Bread</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    </ul>
+                    </li>
+
+                    <li class="nav-item ">
+                    <a class="nav-link " href="about.html" role="button"  >
+                        About Us
+                    </a>
+                    </li>
+                </ul>
+                <!--Tombol Search-->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+
+     <main class="container my-4">
+        <section class="mb-5">
+            <h2 class="text-center border-bottom pb-2" id="judul-kategori">COFFEE</h2>
+                <div class="row row-cols-1 row-cols-md-5 g-4 text-center my-2" id="container-menu"></div>
+         </section>
+     </main>
+
+    <!--- Footer --->
+     <footer class="bg-light border-top py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h2>Layanan Pengaduan Konsumen</h2>
+                    <p class="mb-1">Email: breadcoffee@gmail.com</p>
+                    <p class="text-muted small">Direktorat Jenderal Perlindungan Konsumen dan Tertib Niaga<br>Kementerian Perdagangan Republik Indonesia</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h2>CONTACT US</h2>
+                    <p class="mb-0">📞 +085226142176</p>
+                    <p>💬 +085226142176</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h2>LOCATION</h2>
+                    <p class="mb-0">📍 Jln. T. Nyak Arief</p>
+                    <p>📍 Jln. T. Iskandar Muda</p>
+                </div>
+            </div>
+            <div class="text-center mt-3 pt-3">
+                <small class="text-muted mb-8">© 2026 Bread & Coffee</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>    
